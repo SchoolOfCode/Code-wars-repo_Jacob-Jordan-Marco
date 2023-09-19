@@ -1,6 +1,6 @@
 // code wars
 
-// Kata 1
+// Kata 1 (Muliply)
 
 // Function to return the result of a*b
 // Set a variable as the result of a*b
@@ -14,3 +14,20 @@ function multiply(a, b){
    
    multiply(5, 10);
    
+
+// Kata 2 (Odd or Even)
+
+// we need to call the function
+// if input numbers remainder is 0 = even
+// else input is odd
+
+function evenOrOdd(number) {
+  let modulo = number % 2;
+  if (modulo === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+  
+}
+evenOrOdd(7)
